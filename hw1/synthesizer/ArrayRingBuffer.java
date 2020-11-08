@@ -6,11 +6,11 @@ import java.util.Iterator;
 
 public class ArrayRingBuffer<T> extends AbstractBoundedQueue<T> {
     /* Index for the next dequeue or peek. */
-    public int first;            // index for the next dequeue or peek
+    private int first;            // index for the next dequeue or peek
     /* Index for the next enqueue. */
-    public int last;
+    private int last;
     /* Array for storing the buffer data. */
-    public T[] rb;
+    private T[] rb;
 
     /**
      * Create a new ArrayRingBuffer with the given capacity.

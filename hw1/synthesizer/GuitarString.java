@@ -51,15 +51,4 @@ public class GuitarString {
     public double sample() {
         return buffer.peek();
     }
-
-    public String toString() {
-        StringBuilder returnSB = new StringBuilder("[");
-        for (int i = 0; i < buffer.capacity() - 1; i++) {
-            returnSB.append(buffer.dequeue().toString());
-            returnSB.append(", ");
-        }
-        returnSB.append(buffer.dequeue());
-        returnSB.append("]");
-        return returnSB.toString();
-    }
 }
