@@ -12,4 +12,4 @@ Submission repo for homeworks, labs etc.
 6. Lab 5 (2019): Packages
 7. Lab 6 (2019): Union Find
 
-*Note: Only contains student solutions and not starter skeleton code.
+*Note: Only contains student solutions and not starter skeleton code.*
