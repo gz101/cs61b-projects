@@ -9,7 +9,7 @@ Submission repo for homeworks, labs etc.
 3. Project 1a: ArrayDeque/LLDeque
 4. Lab 3: Testing, JUnit
 5. Project 1b: Deque Extended
-6. Lab 5 (2019): Packages
+6. Lab 15: HugLife (This is also Lab 5 (2019): Packages)
 7. Lab 6 (2019): Union Find
 8. Homework 2: Percolation
 
