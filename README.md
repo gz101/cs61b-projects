@@ -11,5 +11,6 @@ Submission repo for homeworks, labs etc.
 5. Project 1b: Deque Extended
 6. Lab 5 (2019): Packages
 7. Lab 6 (2019): Union Find
+8. Homework 2: Percolation
 
 *Note: Only contains student solutions and not starter skeleton code.*
