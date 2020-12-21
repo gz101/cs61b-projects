@@ -126,4 +126,9 @@ public class Percolation {
     public boolean percolates() {
         return uf.connected(dim * dim, dim * dim + 1);
     }
+
+    // use for unit testing (not required)
+    public static void main(String[] args) {
+
+    }
 }

@@ -20,7 +20,7 @@ import edu.princeton.cs.introcs.StdStats;
 public class PercolationStats {
 
     // Declare global variables.
-    private int[] fracs;
+    private double[] fracs;
     private int trials;
 
     // Perform T independent experiments on an N-by-N grid.
@@ -28,7 +28,7 @@ public class PercolationStats {
         validateConstructorInputs(N, T);
 
         trials = T;
-        fracs = new int[T];
+        fracs = new double[T];
 
         for (int i = 0; i < T; i++) {
             Percolation p = pf.make(N);
@@ -39,7 +39,7 @@ public class PercolationStats {
                     p.open(row, col);
                 }
             }
-            fracs[i] = p.numberOfOpenSites();
+            fracs[i] = p.numberOfOpenSites() / (double) (N * N);
         }
     }
 
