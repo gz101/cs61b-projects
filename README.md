@@ -12,5 +12,6 @@ Submission repo for homeworks, labs etc.
 6. Lab 15: HugLife (This is also Lab 5 (2019): Packages)
 7. Lab 6 (2019): Union Find
 8. Homework 2: Percolation
+9. Lab 9: TreeMap vs HashMap
 
 *Note: Only contains student solutions and not starter skeleton code.*
