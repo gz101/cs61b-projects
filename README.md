@@ -14,5 +14,6 @@ Submission repo for homeworks, labs etc.
 8. Homework 2: Percolation
 9. Lab 9: TreeMap vs HashMap
 10. Homework 3: Hashing
+11. Lab 10: Priority Queues
 
 *Note: Only contains student solutions and not starter skeleton code.*
