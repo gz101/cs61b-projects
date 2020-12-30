@@ -15,5 +15,6 @@ Submission repo for homeworks, labs etc.
 9. Lab 9: TreeMap vs HashMap
 10. Homework 3: Hashing
 11. Lab 10: Priority Queues
+12. Lab 9 (2019): Tries
 
 *Note: Only contains student solutions and not starter skeleton code.*
