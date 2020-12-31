@@ -16,5 +16,6 @@ Submission repo for homeworks, labs etc.
 10. Homework 3: Hashing
 11. Lab 10: Priority Queues
 12. Lab 9 (2019): Tries
+13. Project 2b (2019): K-d Trees
 
 *Note: Only contains student solutions and not starter skeleton code.*
