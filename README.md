@@ -17,5 +17,6 @@ Submission repo for homeworks, labs etc.
 11. Lab 10: Priority Queues
 12. Lab 9 (2019): Tries
 13. Project 2b (2019): K-d Trees
+14. Homework 4: Puzzle Solver using A*
 
 *Note: Only contains student solutions and not starter skeleton code.*
