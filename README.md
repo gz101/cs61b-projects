@@ -18,5 +18,7 @@ Submission repo for homeworks, labs etc.
 12. Lab 9 (2019): Tries
 13. Project 2b (2019): K-d Trees
 14. Homework 4: Puzzle Solver using A*
+15. Lab 11: BFS, DFS, A*, Graph Cycles (required complete, TODO: optional exercises)
 
-*Note: Only contains student solutions and not starter skeleton code.*
+*Note 1: Only contains student solutions and not starter skeleton code.*
+*Note 2: Stopped at Graphs HW11 (finished required but haven't done optional exercises) to prepare for upcoming Harvard CS51.*
