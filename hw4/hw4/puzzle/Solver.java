@@ -2,7 +2,9 @@ package hw4.puzzle;
 
 import edu.princeton.cs.algs4.MinPQ;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class Solver {
 
@@ -93,7 +95,7 @@ public class Solver {
     }
 
     /** Returns the number of items queued into MinPQ. */
-    public int queueCount() {
+    /** private int queueCount() {
         return qCount;
-    }
+    } */
 }

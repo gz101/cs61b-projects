@@ -1,6 +1,5 @@
 package hw4.puzzle;
 
-
 import edu.princeton.cs.algs4.Queue;
 
 public class Board implements WorldState {
@@ -140,6 +139,7 @@ public class Board implements WorldState {
         return manhattan();
     }
 
+    @Override
     /**
      * Returns true if this board's tile values are the same
      * position as y's.
@@ -168,6 +168,21 @@ public class Board implements WorldState {
         return false;
     }
 
+    @Override
+    /**
+     * Implemented to pass Autograder.
+     */
+    public int hashCode() {
+        int sum = 0;
+        for (int i = 0; i < size(); i++) {
+            for (int j = 0; j < size(); j++) {
+                sum = (sum + tileAt(i, j)) * 31;
+            }
+        }
+        return sum;
+    }
+
+    @Override
     /**
      * Returns the string representation of the board.
      */
@@ -177,7 +192,7 @@ public class Board implements WorldState {
         s.append(N + "\n");
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++) {
-                s.append(String.format("%2d ", tileAt(i,j)));
+                s.append(String.format("%2d ", tileAt(i, j)));
             }
             s.append("\n");
         }
